@@ -5,7 +5,22 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+	char z;
+	if (x >= 'A' && x <= 'Z')
+	{
+		if ( x == 'A')
+		{
+			z = 'Z';
+			return z;
+		}else{
+			z = x-1;
+			return z;
+		}
+	}else
+	{
+		z = '0';
+		return z;
+	}
 }
 
 int main(){
