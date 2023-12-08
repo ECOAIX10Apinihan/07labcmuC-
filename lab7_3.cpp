@@ -1,4 +1,7 @@
-#include<iostream>
+#include <iostream>
+#include <cmath>
+#include <string>
+#include <iomanip>
 using namespace std;
 
 char before(char x){
